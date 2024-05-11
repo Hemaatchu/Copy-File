@@ -20,18 +20,21 @@ Increase the maximum number of rows to display the entire DataFrame.
 
 ## PROGRAM:
 ```
-# Program to find the word count using command line arguments
-# Developed by : HEMAVATHY.S
-# Register Number : 212223230076
-with open("sys.txt",'r') as fp:
-  msg  = fp.read()
+Program for copying the contents from one file to another file
+Developed by: HEMAVATHY.S
+RegisterNumber: 212223230076
+with open("text1.txt",'r') as fp:
+    msg1=fp.read()
 with open("copytxt",'w') as fp1:
-  fp1.write(msg)
+    fp1.write(msg1)
 
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-05-10 at 7 53 01 PM](https://github.com/Hemaatchu/Copy-File/assets/147328300/cf782ab0-e40b-4bc6-86c3-138024d9afaf)
+![WhatsApp Image 2024-05-11 at 6 31 37 PM](https://github.com/Hemaatchu/Copy-File/assets/147328300/71f8e24b-2988-4971-b0e9-31c3aa40215c)
+![WhatsApp Image 2024-05-11 at 6 31 40 PM](https://github.com/Hemaatchu/Copy-File/assets/147328300/b89b34ac-26ce-443c-9668-20f5b83e0fe6)
+![WhatsApp Image 2024-05-11 at 6 31 50 PM](https://github.com/Hemaatchu/Copy-File/assets/147328300/7f6de5ca-d25a-42c2-aad8-f1da0e815bb6)
+
 
 
 
