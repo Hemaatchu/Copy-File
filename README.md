@@ -6,17 +6,17 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Load the CSV into a DataFrame.
-
-### Step 2: 
- Print the number of contents to be displayed using df.head().
+Define the function as copy with arguements as existing file name and new file name.
+### Step 2:
+Open the existing file to read.
 ### Step 3: 
-The number of rows returned is defined in Pandas option settings.
+Open the new file to write.
 ### Step 4:  
-Check your system's maximum column with the pd.options.display.max_column statement.
+Copy the contents from existing file to new file.
 ### Step 5: 
-Increase the maximum number of rows to display the entire DataFrame.
-
+Get the inputs from the user for existing file and new file. Call the function.
+### Step 6:
+End the program.
 
 ## PROGRAM:
 ```
